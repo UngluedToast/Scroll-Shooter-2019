@@ -9,11 +9,18 @@ import * as serviceWorker from './serviceWorker';
 
 import reducer from './reducers'
 
-
+// store
 const store = createStore (
     reducer,
     window.__REDUX_DEVTOOLS_EXTENTSION__ && window.__REDUX_DEVTOOLS_EXTENTSION__(),
 );
+
+
+
+
+
+
+/* the route */
 
 
 ReactDOM.render(
